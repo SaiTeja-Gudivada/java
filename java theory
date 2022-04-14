@@ -1,0 +1,52 @@
+read input from user:- there are two ways
+1) SCANNER: it will be in java.utilPackage
+----------------------------------------
+Creation of scanner class object:
+Scanner <object name> = new Scanner(System.in);
+----------------------------------------
+ARRAYS:- two types i)single dimenssion array ii)two dimensional array.
+>> syntax-
+	Array declartion:
+			 int arr[],i;
+                    arr=new int[n];   //n is length of array
+	Array assigning:
+	for (i=0;i<n;i++)
+	{
+		arr[i]=sc.nextInt();
+	}
+---------------------------------------------------------------
+>>accesing an arrey arr[] in two ways:
+ 1) by  using for loop
+expl: 		for (i=0;i<n;i++)
+					{
+				s.o.pln(x[i]);
+						}
+2) by using for each loop
+ expl: 			for (int ele:x)
+              {
+			            s.o.print(ele+" ");// " " is used to print spaces btw two elements that is going to be printed in op.						
+              }
+------------------------------------------------------------------
+Two Dimensinal Array:
+Syntax: datatype_variable[][]=new int a[],int b[];
+expl:
+int x[][],col,rows,i,j;
+row=sc.nextInt();
+col=sc.nextInt();
+x= new int[row][col];
+for (i =0;i<row;i++)
+	{
+	for(j =0;j<col;j++)
+		{
+		Soprint( x[i][j]+" "); //" " is to print spaces btw numbers.
+		}
+	soprintln();	//for going to next line.
+	}
+------------------------------------------------------------
+
+
+
+
+
+
+			  
